@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Bai4 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		System.out.print("Hay nhap a, b, c:");
+		
+	}
+
+}

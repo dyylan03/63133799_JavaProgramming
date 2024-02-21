@@ -1,0 +1,16 @@
+
+import java.util.Scanner;
+public class Bai2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Hay nhap chieu dai:");
+		int CD = scanner.nextInt();
+		System.out.println("Hay nhap chieu rong:");
+		int CR = scanner.nextInt();
+		int CV = (CD + CR) *2;
+		System.out.printf("" + CV);
+
+	}
+
+}
