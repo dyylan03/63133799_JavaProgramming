@@ -11,7 +11,7 @@ public class Bai3{
 			
 			System.out.print("Nhap vao cac phan tu cua mang");
 			for(int i = 0; i < n; i++) {
-				System.out.printf("Nhap vao phan tu thu a[%d]",i);
+				System.out.printf("Nhap vao phan tu thu array[%d]",i);
 				array[i] = scanner.nextInt();
 			}
 			//In mang
